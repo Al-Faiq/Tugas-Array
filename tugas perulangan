@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+
+  // For untuk menampilkan data menggunakan foreach.
+  // Foreach digunakan untuk perulangan yang datanya dalam bentuk aray.
+
+    var data  = ["a","b","c","d","e","f","g"];
+    data.forEach(
+        function tampil(){
+            document.write("SAYA MANUSIA <br>")
+        });
+
+  // for 
+  for (i = 1; i <= 7; i++){
+      document.write("Saya suka kamu <br>")
+  }
+    
+
+
+
+
+  // Perulangan
+    // for
+      // Struktur
+      // for (Inisialisasi;Kondisi;iterasi) {statment}
+
+      for (i = 1; i <= 100; i++){
+          document.write(i)
+      }
+  // While
+    // Struktur 
+    // Inisialisasi
+    // While (kondisi) {
+    // Statment;
+    // Iterasi; 
+    // }
+
+    var i = 1
+
+    while(i <= 5) {
+        document.write(`Saya Indonesia`)
+        i++
+    }
+
+    // Do while
+      // Struktur
+      // Do {
+      // Statment
+      // } while (kondisi);
+
+      var i = 1
+      do {
+          document.write(`Saya sehat`)
+          i++
+       } while ( i <= 5 );
+      
+
+
+
+
+
+</script>
+</body>
+</html>
