@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+     <script>
+         
+        var pilih = prompt("Pilih bangun datar yang ingin dihitung")
+
+        if(pilih === `persegi`) {
+
+          var sisi1 = prompt('masukkan sisi1')
+          var sisi2 = prompt('masukkan sisi2')
+          function hitungTambah(a,b){
+          var hasil = (a*b);
+          return hasil;
+          }
+          var nilai = hitungTambah(sisi1,sisi2);
+          document.write(nilai);
+
+        }else if (pilih === 'persegi panjang') {
+            var panjang = prompt('masukan panjang')
+            var lebar = prompt('masukan lebar')
+            function hitungTambah(a,b){
+          var hasil = (a*b);
+          return hasil;
+          }
+          var nilai = hitungTambah(panjang,lebar);
+          document.write(nilai);
+        }else if (pilih === 'segitiga') {
+            var alas = prompt('masukan alas')
+            var tinggi = prompt('masukan tinggi')
+            function hitungTambah(a,b){
+          var hasil = (a*b);
+          return hasil;
+          }
+          var nilai = hitungTambah(alas,tinggi);
+          document.write(nilai);
+        }else if (pilih === 'jajar genjang') {
+            var alas = prompt('masukan alas')
+            var tinggi = prompt('masukan tinggi')
+            function hitungTambah(a,b){
+          var hasil = (a*b);
+          return hasil;
+          }
+          var nilai = hitungTambah(alas,tinggi);
+          document.write(nilai);
+        }else if (pilih === 'lingkaran') {
+            var p = prompt('masukan jari2')
+            var hasil = 3.14 * p * p
+            function hitungTambah(a,b){
+          var hasil = (a*b);
+          return hasil;
+          }
+          var nilai = hitungTambah(3.14,p,p);
+          document.write(nilai);
+           
+        }
+     </script>
+
+</body>
+</html>
